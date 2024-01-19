@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Mulish;
+}
+header, main{
+  width: 90%;
+  margin: 0 auto;
+}
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #131318;
+  font-size: 36px;
+  font-family: Mulish;
+  font-weight: 800;
+}
+#travel {
+  color: #ff5400;
+}
+#home {
+  color: #ff5400;
+}
+.navContainer ul {
+  display: flex;
+}
+.navContainer ul li {
+  list-style: none;
+}
+.navContainer ul li a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #424247;
+  font-size: 18px;
+  font-family: Mulish;
+  font-weight: 400;
+}
+
+/* nav items end here */
+
+.explorebuttonarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: auto;
+  margin-top: 140px;
+}
+.ExploreTravel {
+  background-image: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  height: 500px;
+  background-position: center;
+}
+.ExploreTravel .content h1 {
+  text-align: center;
+  padding-top: 80px;
+  color: white;
+  font-size: 64px;
+  font-family: Mulish;
+  font-weight: 800;
+}
+.ExploreTravel .content p {
+  color: white;
+  font-size: 16px;
+  font-family: Mulish;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-top: 20px;
+}
+.wherego button {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 25px;
+  font-family: Mulish;
+  text-align: left;
+}
+.When button {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 30px;
+  font-family: Mulish;
+}
+.Selecttype button {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 5px;
+}
+.findnow button {
+  background-color: #ff5400;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 20px;
+  margin-right: 5px;
+}
+/* popular tour */
+
+.populartour {
+  display: flex;
+  margin-top: 35px;
+}
+.populartextitem {
+  padding: 25px;
+}
+.populartextitem ul {
+  padding-left: 10px;
+}
+.populartextitem h3 {
+  color: #131318;
+  font-size: 40px;
+  font-family: Mulish;
+  font-weight: 800;
+  margin-top: 100px;
+  padding-bottom: 15px;
+}
+.populartextitem p,
+ul {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-family: Mulish;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.populartextitem ul li {
+  padding-bottom: 15px;
+}
+.populartextitem button {
+  background-color: #ff5400;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-family: Mulish;
+  font-weight: 800;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.popularImg {
+  width: 90%;
+  height: auto;
+  margin-top: 100px;
+}
+/* choosing part */
+
+.choosingpart {
+  text-align: center;
+  margin-top: 20px;
+}
+.choosingpart h4 {
+  color: #131318;
+  font-size: 40px;
+  font-family: Mulish;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.choosingpart p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-family: Mulish;
+  font-weight: 400;
+  line-height: 26px;
+}
+.img1 {
+  grid-column: auto / span 6;
+
+}
+.img2 {
+  grid-column: auto / span 6;
+  
+}
+.img3 {
+  grid-column: auto / span 3;
+}
+.img4 {
+  grid-column: auto / span 6;
+}
+.img5 {
+  grid-column: auto / span 3;
+}
+.img6 {
+  grid-column: auto / span 4;
+}
+.img7 {
+  grid-column: auto / span 8;
+}
+
+.GridContainer {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+.GridContainer img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+/* why choosing part */
+
+.WhyChose {
+  margin-top: 20px;
+}
+
+.WhyChose h3 {
+  color: #131318;
+  font-size: 40px;
+  font-family: Mulish;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.WhyChose p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-family: Mulish;
+  font-weight: 400;
+  text-align: center;
+}
+.handcardContainer {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.cardimg img {
+  width: 50px;
+  text-align: center;
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.cardimg {
+  width: 600px;
+  background: rgba(251, 181, 99, 0.05);
+  border-radius: 10px;
+}
+.CardContent h5 {
+  padding-left: 20px;
+  color: #131318;
+  font-size: 24px;
+  font-family: Mulish;
+  font-weight: 800;
+}
+.CardContent p {
+  padding: 25px;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-family: Mulish;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.cardimg2{
+  background: rgba(41, 206, 246, 0.05);
+}
+.cardimg3{
+  background: rgba(233, 68, 68, 0.05);
+}
+
+
+/* Deals & Discounts started */
+
+
+
+
+
+
+
+
+/* Deals & Discounts end */
+
+
+.simpleContainer{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.simpletext h2{
+  color: #131318;
+font-size: 40px;
+font-family: Mulish;
+font-weight: 800;
+line-height: 60px;
+padding-left: 25px;
+margin-top: 70px;
+}
+
+.simpletext p{
+  color: #5A5A5D;
+font-size: 16px;
+font-family: Mulish;
+font-weight: 400;
+line-height: 26px;
+padding-left: 35px;
+margin-bottom: 10px;
+}
+.simpletext ul li{
+  color: #131318;
+font-size: 16px;
+font-family: Mulish;
+font-weight: 700;
+line-height: 26px;
+margin-bottom: 20px;
+
+}
+.simpletext ul{
+  padding-left: 35px;
+  margin-bottom: 10px;
+}
+.simpletext button{
+ margin-left: 35px;
+ padding: 5px 15px;
+ border-radius: 8px;
+ background-color: #ff5400;
+border: none;
+color: white;
+font-size: 20px;
+font-family: Mulish;
+font-weight: 800;
+margin-top: 20px;
+}
+.simpleimg{
+  margin-top: 70px;
+}
+
+/* newsletterContainer starts */
+.newsletterContainer{
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  position: relative;
+}
+
+.newstable h5{
+  color: #131318;
+font-size: 24px;
+font-family: Mulish;
+font-weight: 800;
+text-align: center;
+}
+.newstable p{
+  color: #5A5A5D;
+font-size: 16px;
+font-family: Mulish;
+font-weight: 400;
+text-align: center;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.newstable{
+  border: 1px solid #FF5400;
+  margin-left: 120px;
+  border-radius: 10px;
+  margin-top: 2px;
+}
+
+
+#emailinput, #textinput{
+  padding: 8px 50px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  color: rgba(19, 19, 24, 0.30);
+font-size: 16px;
+font-family: Mulish;
+font-weight: 400;
+background: rgba(19, 19, 24, 0.05);
+
+}
+.inputType button{
+  padding: 8px 98px;
+  margin-left: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ff5400;
+  color: white;
+font-size: 20px;
+font-family: Mulish;
+font-weight: 800;
+}
+.newsimg{
+  margin-left: 20px;
+}
+
+.SaveUP{
+  background-color: #FF5400;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+ position: absolute;
+  top: 190px;
+  right: 350px;
+  
+  transform: rotate(-30deg);
+
+}
+
+.SaveUP h6{
+  color: white;
+font-size: 24px;
+font-family: Mulish;
+font-weight: 400;
+padding: 5px 15px;
+text-align: center;
+margin-top: 10px;
+
+}
+
+.SaveUP h4{
+  color: white;
+font-size: 32px;
+font-family: Mulish;
+font-weight: 800;
+padding: 5px 15px;
+text-align: center;
+
+}
+
+/* footer section here */
+footer{
+  background: rgba(19, 19, 24, 0.05);
+}
+.footer{
+  margin-top: 50px;
+ 
+}
+
+.footerlogo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #131318;
+font-family: Mulish;
+font-weight: 800;
+}
+.footerPara{
+  text-align: center;
+  color: #5A5A5D;
+font-size: 16px;
+font-family: Mulish;
+font-weight: 400;
+line-height: 26px;
+}
+.footerlogo2 img{
+  width: 20px;
+}
+.footerlogo2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 30px;
+ 
+}
+hr{
+  border-bottom: 2px solid #f0f0f0;
+  height: 2px;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 20px;
+}
+
+.footerrights{
+  text-align: center;
+  color: #131318;
+font-size: 16px;
+font-family: Inter;
+font-weight: 300;
+margin-top: 20px;
+}
