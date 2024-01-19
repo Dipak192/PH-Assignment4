@@ -490,3 +490,58 @@ font-family: Inter;
 font-weight: 300;
 margin-top: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+/* mobile devices media quiry */
+
+@media screen and (max-width:600px) {
+    .navContainer, .populartour, .handcardContainer, .newsletterContainer{
+        flex-direction: column;
+    }
+    .navContainer ul{
+        display: none;
+    }
+    .navlogo{
+        font-size: 16px;
+        font-weight: 400;
+        margin-right: 400px;
+    }
+    .ExploreTravel{
+        margin-right: 50px;
+    }
+    .GridContainer{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* large devices */
+
+
+@media screen and (min-width:600px) and (max-width:992) {
+    .navContainer, .populartour, .handcardContainer, .newsletterContainer{
+        flex-direction: column;
+    }
+    .navContainer ul{
+        display: none;
+    }
+    .navlogo{
+        font-size: 16px;
+        font-weight: 400;
+        margin-right: 400px;
+    }
+    .ExploreTravel{
+        margin-right: 50px;
+    }
+    .GridContainer{
+        grid-template-columns: 1fr;
+    }
+}
+
